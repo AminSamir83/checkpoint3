@@ -1,0 +1,376 @@
+body{
+    font-family: sans-serif;
+    color: #ababab;
+  margin:0;
+
+}
+
+.header-logo{
+  
+  display:flex;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background: white;
+  
+  margin: auto;
+  position: fixed;
+  top: 0;
+  
+}
+.logo-docplanner{
+  width: 25%;
+  height: 80%;
+  padding-left: 18%;
+}
+.header-links{
+  
+  margin-left: 24%;
+  align-self: flex-end;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.header-link{
+  text-decoration: none;
+  color: #ababab;
+  padding: 0 10px;
+  
+}
+.header-link:hover {
+  color: #00ccb1;
+}
+.active {
+  color: #00ccb1;
+}
+.dropbtn {
+    
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ababab;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #00ccb1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    
+}
+main {
+  padding: 30px;
+  margin-top: 30px;
+  
+}
+.introduction {
+  max-width:1000px;
+  margin: auto;
+}
+.introduction-logo{
+  display: flex;
+}
+.docplanner-center-logo{
+  margin: auto;
+}
+.introduction-title{
+  
+  text-align: center;
+  color: #00ccb1;
+}
+.introduction-text {
+  display: flex;
+}
+.introduction-text p {
+  
+  color: #ababab;
+}
+.patient-text {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.doctor-text{
+  padding-left: 20px;
+  
+}
+.services {
+  display: flex;
+  max-width:1000px;
+  margin: auto;
+}
+.service-card {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  height: 300px;
+  
+}
+.service-card-patient {
+  background-color:#00ccb1;
+  color: white;
+  border-radius: 20px;
+  margin: 0 20px;
+}
+.service-card-doctor {
+  background-color:#3d83df;
+  color: white;
+  border-radius: 20px;
+}
+.service-card-for{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.service-card-for-h1 {
+  padding-left: 20px;
+}
+.service-card-for-doctor-h1 {
+  color: #8FAFDA;
+}
+.service-card-for-patient-h1 {
+  color:#94D2CA;
+}
+.service-card-content-patient{
+  display:flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  
+}
+.service-card-content-doctor{
+  display:flex;
+  justify-content: flex-end;
+  overflow: hidden;
+}
+.service-card-image {
+  width: 50%;
+  margin-right: -50px;
+  
+  
+}
+.service-card-select {
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right:100px;
+}
+.doctors-links {
+  padding-top: 40px;
+  display:flex;
+  justify-content: space-between;
+  max-width:1000px;
+  margin: auto;
+}
+.doctors-links-title{
+  color:#00ccb1;
+  width: 300px;
+}
+.doctors-links-ref {
+  display: flex;
+  flex-wrap: wrap;
+}
+.doctors-links-ref a{
+  text-decoration: none;
+  color:#ababab;
+  padding: 0 2px;
+}
+.doctors-links-svg{
+  padding: 0 20px;
+  fill:#ababab;
+}
+.healthcare-platform {
+  background: #d4f5f6;
+background-image:url(https://www.docplanner.com/img/logo.png);
+background-repeat:no-repeat;
+  background-position:80px 200px;
+}
+.healthcare-platform-div{
+  max-width:1000px;
+  margin: auto;
+  display: flex;
+}
+.platform-text h2{
+  color:#00ccb1;
+  width: 50%;
+  font-size: 30px;
+}
+.platform-text{
+  padding-top: 20px;
+  padding-left:30px;
+}
+.platform-description-1st{
+  display:flex;
+  flex-direction: column;
+  padding-right:20px;
+}
+.platform-description-2nd{
+  padding-right:20px;
+}
+.countries {
+  margin-top: 40px;
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  
+}
+
+.patients {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 200px;
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  
+}.appointments {
+  margin-top: 10px;
+  background: white;
+  height: 200px;
+  border-radius: 5px;
+  width: 200px;
+  
+}
+
+.doctors {
+  margin-top: 20px;
+  height: 200px;
+  background: white;
+  border-radius: 5px;
+  width: 200px;
+  
+}
+.article-image {
+  
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  padding-top: 30px;
+}
+.article-title {
+  color: #00ccb1;
+  text-align: center;
+}
+.article-content {
+  text-align: center;
+  color: #ababab;
+  padding-bottom: 30px;
+}
+.improve-section {
+  margin: auto;
+  max-width: 1000px;
+}
+.improve-title {
+  padding-top: 80px;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  color: #00ccb1;
+}
+.improve-content {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  padding-top: 30px;
+  color: #ababab;
+  padding-bottom: 30px;
+}
+.offices-section {
+  margin: auto;
+  max-width: 1000px;
+  display:flex;
+  flex-wrap: wrap;
+  padding-bottom: 80px;
+}
+.office-article {
+  width: 29.33%;
+  padding-bottom: 20px;
+  margin-left:2%;
+  margin-right:2%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.office-article:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.office-article-image {
+  border-radius: 5px;
+  width: 100%;
+}
+.sample-link {
+  text-decoration: none;
+  color: #ababab;
+  display: block;
+  margin-top:auto;
+  margin-bottom: auto;
+}
+.office-article-links{
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 15px;
+}
+.openings-link{
+  text-decoration: none;
+  background-color: #3d83df;
+  color:white;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+.openings-link:hover {
+  background-color: #1d5caf;
+}
+
+footer{
+  margin: auto;
+  max-width:1000px;
+  border-top: 1px solid #ababab;
+  display:flex;
+  flex-direction: column;
+  margin-bottom:0;
+  font-size: 12px;
+}
+.top-footer {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin: auto;
+  
+}
+.top-footer a{
+  text-decoration: none;
+}
+.top-footer a:hover{
+  text-decoration: underline;
+}
+.bottom-footer {
+  padding-bottom: 10px;
+  margin: auto;
+  text-align: center;
+ 
+}
